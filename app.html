@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/92d7fc4876.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <h1><a href="home.html">RECIPE APP</a></h1>
+        <div class="it">
+           <a href="index.html"> <i class="fa-solid fa-user"></i></a>
+        <form>
+            <input type="text" placeholder="Search your food item" class="searchBox">
+            <button class="searchbtn">Search</button>
+        </form>
+        </div>
+    </nav>
+
+
+
+
+    <script>
+        searchBox = document.querySelector('.searchBox');
+        searchbtn = document.querySelector('.searchbtn');
+
+        const fetchapi = async(query) =>{
+            const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
+            const response =await data.json();
+            console.log(response);
+        }
+
+        searchbtn.addEventListener('click',(e)=>{
+            e.preventDefault();
+            const searchinput= searchBox.value.trim();
+            fetchapi(searchinput);
+        })
+    </script>
+    
+    
+</body>
+</html>

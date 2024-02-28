@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92d7fc4876.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="ok">
+        <div class="register">
+            <h1 id="head">Sign Up</h1>
+            <br>
+            <form id="form1" onsubmit="allfield()" action="app.html" >
+                <input id="namef"  type="text" placeholder="name" ><br>
+                <input type="email" placeholder="email" id="cswd"><br>
+                <input type="password" placeholder="password" id="pswd"><br>
+                
+                <p>Forgot password ?</p>
+                <input class="submit" type="submit" value="submit">
+            </form>
+            
+              <div class="switch">
+                <button id="in" onclick="ur()">sign up</button>
+                <button id="out" class="disable" onclick="my()">sign in</button>
+    
+              </div>
+            
+    
+        </div>
+    </div>
+    <script>
+        let signup = document.getElementById("in");
+        let signin = document.getElementById("out");
+        let head = document.getElementById("head");
+        let name = document.getElementById("namef");
+       function my(){
+            name.style.display = "none";
+            signin.style.backgroundColor= "orange";
+            signup.style.backgroundColor= "grey";
+            head.innerHTML="Sign In";
+
+        }
+        function ur(){
+            name.style.display = "block";
+            signin.style.backgroundColor= "grey";
+            signup.style.backgroundColor= "orange";
+            head.innerHTML="Sign Up";
+
+        }
+        function allfield(){
+        let u=document.forms['form1']['namef'].value;
+        let p=document.forms['form1']['pswd'].value;
+        let c=document.forms['form1']['cswd'].value;
+        if(u == "" || p== "" || c==""){
+            alert('all required');
+            document.getElementById("form1").action="index.html";
+
+            return false;
+        }
+      }
+
+    </script>
+
+    
+</body>
+</html>
