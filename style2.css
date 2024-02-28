@@ -39,9 +39,35 @@ form input[type="text"]{
     
 
 }
+.recipe-box img{
+    height: 200px;
+    width: 20vw;
+    border-radius: 50%;
+}
+.recipe-box h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.recipe-box p{
+    color: yellow;
+}
+.text{
+    font-family: shadows into Light;
+}
 form button{
     background-color: #f44546;
     margin-left: 10px;
+}
+
+.recipe-box{
+text-align: center;
+
+}
+.b1{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
 }
 @media screen and (max-width: 500px) {
     nav{
