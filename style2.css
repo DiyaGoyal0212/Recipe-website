@@ -58,6 +58,14 @@ form input[type="text"]{
 filter: blur(20px);
 pointer-events: none;
 user-select: none;
+scroll-behavior: none;
+}
+nav.active{
+    filter: blur(20px);
+pointer-events: none;
+user-select: none;
+scroll-behavior: none;
+
 }
 .recipe-box p{
     color: yellow;
@@ -80,6 +88,11 @@ text-align: center;
     margin-bottom: 30px;
 }
 @media screen and (max-width: 500px) {
+    #popup{
+        overflow: hidden;
+        height: 100vh;
+        width: 300px;
+    }
     nav{
         flex-direction: column;
     }
@@ -92,13 +105,14 @@ text-align: center;
         
     }
     
+    
 }
 #popup{
     position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 600px;
+    width: 500px;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
     background-color: #fff;
@@ -311,6 +325,391 @@ text-align: center;
     color: black;
 }
 #popup9.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup10{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup10 h1{
+    color: black;
+}
+#popup10.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup11{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup11 h1{
+    color: black;
+}
+#popup11.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup12{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup12 h1{
+    color: black;
+}
+#popup12.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup13{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup13 h1{
+    color: black;
+}
+#popup13.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup14{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup14 h1{
+    color: black;
+}
+#popup14.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup15{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup15 h1{
+    color: black;
+}
+#popup15.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup16{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup16 h1{
+    color: black;
+}
+#popup16.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup17{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup17 h1{
+    color: black;
+}
+#popup17.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup18{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup18 h1{
+    color: black;
+}
+#popup18.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup19{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup19 h1{
+    color: black;
+}
+#popup19.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup20{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup20 h1{
+    color: black;
+}
+#popup20.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup21{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup21 h1{
+    color: black;
+}
+#popup21.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup22{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup22 h1{
+    color: black;
+}
+#popup22.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup23{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup23 h1{
+    color: black;
+}
+#popup23.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup24{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#popup24 h1{
+    color: black;
+}
+#popup24.active{
     top: 50%;
     visibility: visible;
     opacity: 1;
