@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/92d7fc4876.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .searchbtn{
+    background-color: #f44546;
+    margin-left: 10px;
+}
+    img{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        background: #dfdfdf;
+    }
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.it{
+    display: flex;
+    margin-right: 10px;
+}
+form{
+  display: flex;
+    margin-left: 10px;
+}
+i{
+    font-size: 25px;
+    color: aliceblue;
+}i:hover{
+    color:orange;
+}
+h1{
+    color: aliceblue;
+}
+form input[type="text"]{
+    flex-grow: 1;
+    
+    
+
+}
+.images h1{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.done{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+</style>
+<body>
+
+    <nav>
+        <h1><a href="index.html">RECIPE APP</a></h1>
+        <div class="it">
+           <a href="login.html"> <i class="fa-solid fa-user"></i></a>
+        <form>
+            <input type="text" placeholder="Search your food item" class="searchBox">
+            <button class="searchbtn"><a class="anchor" href=".hbcd">Search</a></button>
+        </form>
+        </div>
+       
+    </nav>
+    <div class="images">
+        <h1>UPLOAD YOUR IMAGES</h1>
+        <div class="done">
+            <img src="img.png"/>
+    <input class="input" type="file"/>
+        </div>
+        <h1>THANK YOU !!</h1>
+    
+    </div>
+
+    <script>
+        const img=document.querySelector('img');
+        input = document.querySelector('.input');
+        images = document.querySelector('.images');
+        done= document.querySelector('.done');
+        input.addEventListener('change',()=>{
+            img.src = URL.createObjectURL(input.files[0]);
+           
+
+        });
+
+
+    </script>
+</body>
+</html>

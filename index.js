@@ -6,10 +6,10 @@ let  searchbtn = document.querySelector('.searchbtn');
  
 
  searchbtn.addEventListener('click',(e)=>{
-     e.preventDefault();
+    //  e.preventDefault();
      const searchinput= searchBox.value.trim();
  
-    anchor.href=`.${searchinput}`;
+    anchor.href=`#${searchinput}`;
      
  })
  var blur = document.getElementById('blur');

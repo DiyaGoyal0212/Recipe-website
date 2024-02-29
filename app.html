@@ -11,6 +11,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 </head>
+<style>
+    #photo{
+        height: 100px;
+        width: 200px;
+        color: white;
+        margin-top: 40px;
+
+    }
+    #photo a{
+        text-decoration: none;
+        color:white;
+    }
+</style>
 <body>
     <nav>
         <h1><a href="index.html">RECIPE APP</a></h1>
@@ -18,7 +31,7 @@
            <a href="login.html"> <i class="fa-solid fa-user"></i></a>
         <form>
             <input type="text" placeholder="Search your food item" class="searchBox">
-            <button class="searchbtn"><a class="anchor" href=".hbcd">Search</a></button>
+            <button class="searchbtn"><a class="anchor" href="">Search</a></button>
         </form>
         </div>
        
@@ -27,75 +40,64 @@
         <h1>FIND TASTE THAT SUITS YOU</h1>
         <div class="breakfast">
             <h1 class="text">BREAKFAST</h1>
-            <!-- <div class="b1">
-                <div class="aloo-parantha"><img src="aloo-parantha.webp" alt="parantha"><p>ALOO PARNATHA</p></div>
-            <div class="upma"><img src="Upma.jpg" alt="upma"><p>UPMA</p></div>
-            <div class="chole-bhature"><img src="chole-bhature.avif" alt="bhature"><p>CHOLE BHATURE</p></div>
-            <div class="rava-uttapam"><img src="rava-uttapam.jpg"><p>RAVA UTTAPAM</p></div>
-            </div> -->
+        
             <div class="b1">
-                <div class="masala dosa"><img src="masala-dosa.jpeg" onclick="dosa()"><p>MASALA DOSA</p></div>
-            <div class="idli-sambhar"><img src="idli_sambhar.jpg" onclick="idli()"><p>IDLI SAMBHAR</p></div>
-            <div class="poha"><img src="Indori_Poha.jpg" onclick="poha()"><p>POHA</p></div>
-          <div class="savory-french-toast"><img src="french-toast.jpg" onclick="toast()"><p>SAVORY FRENCH TOAST</p></div>
+                <div id="dosa" class="masala dosa"><img src="masala-dosa.jpeg" onclick="dosa()"><p>MASALA DOSA</p></div>
+            <div id="idli" class="idli-sambhar"><img src="idli_sambhar.jpg" onclick="idli()"><p>IDLI SAMBHAR</p></div>
+            <div id="poha" class="poha"><img src="Indori_Poha.jpg" onclick="poha()"><p>POHA</p></div>
+          <div id="toast" id="bread" class="savory-french-toast"><img src="french-toast.jpg" onclick="toast()"><p>SAVORY FRENCH TOAST</p></div>
             </div>
         </div>
         <div class="lunch">
             <h1 class="text">LUNCH</h1>
             
             <div class="b1">
-                <div class="paneer-lababdar"><img src="lababdar.jpeg" onclick="lababdar()"><p>PANEER LABABDAR</p></div>
-                <div class="rajma"><img src="rajma.jpeg" onclick="rajma()"><p>RAJMA</p></div>
-                <div class="kadhi"><img src="kadhi.webp" onclick="kadhi()"><p>KADHI</p></div>
-                <div class="mushroom"><img src="tofu-and-mushroom-stir-fry.webp" onclick="mushroom()"><p>MUSHROOM</p></div>
+                <div id="paneer" class="paneer-lababdar"><img src="lababdar.jpeg" onclick="lababdar()"><p>PANEER LABABDAR</p></div>
+                <div  id="rajma" class="rajma"><img src="rajma.jpeg" onclick="rajma()"><p>RAJMA</p></div>
+                <div id="kadhi" class="kadhi"><img src="kadhi.webp" onclick="kadhi()"><p>KADHI</p></div>
+                <div id="mushroom" class="mushroom"><img src="tofu-and-mushroom-stir-fry.webp" onclick="mushroom()"><p>MUSHROOM</p></div>
             </div>
 
         </div>
         <div class="dinner">
             <h1 class="text">DINNER</h1>
             <div class="b1">
-                <div class="tofu-tikka-masala"><img src="tofu.jpeg" onclick="tofu()"><p>TOFU TIKKA MASALA</p></div>
-                <div class="dal-makhani"><img src="dal-makhni.jpeg " onclick="makhani()"><p>DAL MAKHANI</p></div>
-                <div class="bhindi"><img src="bhindi.jpeg" onclick="bhindi()"><p>BHINDI</p></div>
-                <div class="aloo-gobhi"><IMG src="aloo_gobhi.jpeg" onclick="gobhi()"><p>ALOO GOBHI</p></div>
+                <div id="tofu" id="masala" class="tofu-tikka-masala"><img src="tofu.jpeg" onclick="tofu()"><p>TOFU TIKKA MASALA</p></div>
+                <div id="dal makhani" class="dal-makhani"><img src="dal-makhni.jpeg " onclick="makhani()"><p>DAL MAKHANI</p></div>
+                <div id="bhindi" class="bhindi"><img src="bhindi.jpeg" onclick="bhindi()"><p>BHINDI</p></div>
+                <div id="aloo gobhi" class="aloo-gobhi"><IMG src="aloo_gobhi.jpeg" onclick="gobhi()"><p>ALOO GOBHI</p></div>
             </div>
             
 
         </div>
         <div class="snacks">
             <h1 class="text">SNACKS</h1>
-            <!-- <div class="b1">
-                <div class="fries"><img src="fries.jpeg"><p>FRIES</p></div>
-                <div class="manchurian"><img src="manchurian.jpeg"><p>MANCHURIAN</p></div>
-                <div class="spring-roll"><img src="spring-roll.jpeg"><p>SPRING ROLL</p></div>
-                <div class="paneer-tikka"><img src="tikka.jpeg"><p>PANEER TIKKA</p></div>
-
-            </div> -->
-            <div class="b1">
-                <div class="burgir"><img src="burgir.jpeg" onclick="burgir()"><p>BURGIR</p></div>
-                <div class="sandwich"><img src="sandwhich.jpeg" onclick="sandwich()"><p>SANDWICH</p></div>
-                <div class="pizza"><img src="pizza.jpeg" onclick="pizza()"><p>PIZZA</p></div>
-                <div class="pasta"><img src="pasta.jpeg" onclick="pasta()"><p>PASTA</p></div>
+           
+            <div id="snacks" class="b1">
+                <div id="burgir" class="burgir"><img src="burgir.jpeg" onclick="burgir()"><p>BURGIR</p></div>
+                <div id="sandwhich" class="sandwich"><img src="sandwhich.jpeg" onclick="sandwich()"><p>SANDWICH</p></div>
+                <div id="pizza" class="pizza"><img src="pizza.jpeg" onclick="pizza()"><p>PIZZA</p></div>
+                <div id="pasta" class="pasta"><img src="pasta.jpeg" onclick="pasta()"><p>PASTA</p></div>
             </div>
 
         </div>
-        <div class="sweets">
+        <div id="dessert"  class="sweets">
             <h1 class="text">SWEETS</h1>
-            <div class="b1">
-                <div class="gulab-jamun"><img src="gulab-jamun.jpeg"o onclick="gulab()"><p>GULAB JAMUN</p></div>
-                <div class="rasgulla"><img src="rasgulla.jpeg" onclick="rasgulla()"><p>RASGULLA</p></div>
-                <div class="ras-malai"><img src="rasmalai.jpeg" onclick="rasmalai()"><p>RASMALAI</p></div>
-                <div class="burfi"><img src="burfi.jpeg" onclick="burfi()"><p>BURFI</p></div>
+            <div  id="sweets" class="b1">
+                <div  id="gulab jamun" class="gulab-jamun"><img src="gulab-jamun.jpeg"o onclick="gulab()"><p>GULAB JAMUN</p></div>
+                <div id="rasgulla" class="rasgulla"><img src="rasgulla.jpeg" onclick="rasgulla()"><p>RASGULLA</p></div>
+                <div id="ras malai" class="ras-malai"><img src="rasmalai.jpeg" onclick="rasmalai()"><p>RASMALAI</p></div>
+                <div id="burfi" class="burfi"><img src="burfi.jpeg" onclick="burfi()"><p>BURFI</p></div>
             </div>
 
         </div>
         <div class="cakes">
             <h1 class="text">CAKES</h1>
             <div class="b1">
-                <div class="cheese_cake"><img src="cheese-cake.jpeg" onclick="cheese()"><p>CHEESE CAKE</p></div>
-            <div class="tiramisu"><img src="tiramisu.jpeg" onclick="tiramisu()"><p>TRISMASU</p></div>
-            <div class="tres-les-ches"><img src="tres.jpeg" onclick="toggl()"><p>TRES LES CHES</p></div>
-            <div class="red-velvet"><img  src="red-velvet.jpeg" onclick="toggle()"><p>RED VELVET</p></div>
+                <div id="cheese cake" class="cheese_cake"><img src="cheese-cake.jpeg" onclick="cheese()"><p>CHEESE CAKE</p></div>
+            <div id="cake" class="tiramisu"><img src="tiramisu.jpeg" onclick="tiramisu()"><p>TRISMASU</p></div>
+            <div id="cakes" class="tres-les-ches"><img src="tres.jpeg" onclick="toggl()"><p>TRES LES CHES</p></div>
+            <div id="red velvet" class="red-velvet"><img  src="red-velvet.jpeg" onclick="toggle()"><p>RED VELVET</p></div>
            
             </div>
 
@@ -1185,6 +1187,10 @@ Enjoy your delicious Masala Dosa! Adjust the thickness of the dosa according to 
 
     <button class="searchbtn" onclick="dosa()">CLOSE</button>
 </div>
+
+
+
+<button class="searchbtn" id="photo"><a href="photo.html">ADD PHOTO OF YOUR DISH</a></button>
 <script src="index.js"></script>   
 </body>
 </html>
