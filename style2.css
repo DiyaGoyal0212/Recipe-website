@@ -43,11 +43,21 @@ form input[type="text"]{
     height: 200px;
     width: 20vw;
     border-radius: 50%;
+    transition: 0.5s;
+}
+.recipe-box img:hover{
+    transform: scale(1.05);
+    /* border: 2px orange solid; */
 }
 .recipe-box h1{
     margin-top: 30px;
     margin-bottom: 30px;
     
+}
+.recipe-box#blur.active{
+filter: blur(20px);
+pointer-events: none;
+user-select: none;
 }
 .recipe-box p{
     color: yellow;
@@ -55,7 +65,7 @@ form input[type="text"]{
 .text{
     font-family: shadows into Light;
 }
-form button{
+.searchbtn{
     background-color: #f44546;
     margin-left: 10px;
 }
@@ -82,4 +92,229 @@ text-align: center;
         
     }
     
+}
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup h1{
+    color: black;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup2{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup2 h1{
+    color: black;
+}
+#popup2.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup3{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup3 h1{
+    color: black;
+}
+#popup3.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup4{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup4 h1{
+    color: black;
+}
+#popup4.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup5{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup5 h1{
+    color: black;
+}
+#popup5.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup6{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup6 h1{
+    color: black;
+}
+#popup6.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup7{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup7 h1{
+    color: black;
+}
+#popup7.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup8{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup8 h1{
+    color: black;
+}
+#popup8.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
+}
+#popup9{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#popup9 h1{
+    color: black;
+}
+#popup9.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: scroll;
+
 }

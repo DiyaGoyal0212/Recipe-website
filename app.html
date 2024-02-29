@@ -22,7 +22,7 @@
         </div>
        
     </nav>
-    <div class="recipe-box">
+    <div class="recipe-box" id="blur">
         <h1>FIND TASTE THAT SUITS YOU</h1>
         <div class="breakfast">
             <h1 class="text">BREAKFAST</h1>
@@ -41,12 +41,7 @@
         </div>
         <div class="lunch">
             <h1 class="text">LUNCH</h1>
-            <div class="b1">
-                <div class="veg_biryani"><img src="veg-biryani-recipes.webp"><p>VEG BIRYANI</p></div>
-                <div class="kathi_roll"><img src="Chicken-Kathi-Roll-1024x516.jpg"><p>KATHI ROLL</p></div>
-                <div class="capsicum-fry"><img src="fry.jpeg"><p>CAPSICUM FRY</p></div>
-                <div class="shahi_panner"><img src="shahi-paneer-recipe-.jpg"><p>SHAHI PANEER</p></div>
-            </div>
+            
             <div class="b1">
                 <div class="paneer-lababdar"><img src="lababdar.jpeg"><p>PANEER LABABDAR</p></div>
                 <div class="rajma"><img src="rajma.jpeg"><p>RAJMA</p></div>
@@ -63,12 +58,7 @@
                 <div class="bhindi"><img src="bhindi.jpeg"><p>BHINDI</p></div>
                 <div class="aloo-gobhi"><IMG src="aloo_gobhi.jpeg"><p>ALOO GOBHI</p></div>
             </div>
-            <div class="b1">
-                <div class="dal-fry"><img src="dal-fry.jpeg"><p>DAL FRY</p></div>
-                <div class="noodles"><img src="noodles.jpeg"><p>NOODLES</p></div>
-                <div class="egg-curry"><img src="egg-curry.jpeg"><p>EGG CURRY</p></div>
-                <div class="chicken_biryani"><img src="chicken-biryani.jpeg"><p>CHICKEN BIRYANI</p></div>
-            </div>
+            
 
         </div>
         <div class="snacks">
@@ -84,31 +74,409 @@
                 <div class="burgir"><img src="burgir.jpeg"><p>BURGIR</p></div>
                 <div class="sandwich"><img src="sandwhich.jpeg"><p>SANDWICH</p></div>
                 <div class="pizza"><img src="pizza.jpeg"><p>PIZZA</p></div>
-                <div class="pasta"><img src="pasta.jpeg"><p>PASTA</p></div>
+                <div class="pasta"><img src="pasta.jpeg" onclick="pasta()"><p>PASTA</p></div>
             </div>
 
         </div>
         <div class="sweets">
             <h1 class="text">SWEETS</h1>
             <div class="b1">
-                <div class="gulab-jamun"><img src="gulab-jamun.jpeg"><p>GULAB JAMUN</p></div>
-                <div class="rasgulla"><img src="rasgulla.jpeg"><p>RASGULLA</p></div>
-                <div class="ras-malai"><img src="rasmalai.jpeg"><p>RASMALAI</p></div>
-                <div class="burfi"><img src="burfi.jpeg"><p>BURFI</p></div>
+                <div class="gulab-jamun"><img src="gulab-jamun.jpeg"o onclick="gulab()"><p>GULAB JAMUN</p></div>
+                <div class="rasgulla"><img src="rasgulla.jpeg" onclick="rasgulla()"><p>RASGULLA</p></div>
+                <div class="ras-malai"><img src="rasmalai.jpeg" onclick="rasmalai()"><p>RASMALAI</p></div>
+                <div class="burfi"><img src="burfi.jpeg" onclick="burfi()"><p>BURFI</p></div>
             </div>
 
         </div>
         <div class="cakes">
             <h1 class="text">CAKES</h1>
             <div class="b1">
-                <div class="cheese_cake"><img src="cheese-cake.jpeg"><p>CHEESE CAKE</p></div>
-            <div class="tiramisu"><img src="tiramisu.jpeg"><p>TRISMASU</p></div>
-            <div class="tres-les-ches"><img src="tres.jpeg"><p>TRES LES CHES</p></div>
-            <div class="red-velvet"><img src="red-velvet.jpeg"><p>RED VELVET</p></div>
+                <div class="cheese_cake"><img src="cheese-cake.jpeg" onclick="cheese()"><p>CHEESE CAKE</p></div>
+            <div class="tiramisu"><img src="tiramisu.jpeg" onclick="tiramisu()"><p>TRISMASU</p></div>
+            <div class="tres-les-ches"><img src="tres.jpeg" onclick="toggl()"><p>TRES LES CHES</p></div>
+            <div class="red-velvet"><img  src="red-velvet.jpeg" onclick="toggle()"><p>RED VELVET</p></div>
+           
             </div>
 
         </div>
     </div>
+    <div id="popup">
+        <h1>RED VELVET</h1>
+       
+    <h3>Ingredients:</h3>
+<h5>For the cake:</h5>
+2 1/2 cups all-purpose flour
+1 1/2 cups granulated sugar
+1 teaspoon baking soda
+1 teaspoon salt
+1 teaspoon cocoa powder
+1 1/2 cups vegetable oil
+1 cup buttermilk, room temperature
+2 large eggs, room temperature
+2 tablespoons red food coloring
+1 teaspoon white distilled vinegar
+1 teaspoon vanilla extract
+For the cream cheese frosting:
+1 pound cream cheese, softened
+2 sticks unsalted butter, softened
+1 teaspoon vanilla extract
+4 cups sifted confectioners' sugar
+<h3>Instructions:</h3>
+<h4>For the cake:</h4>
+Preheat your oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.
+In a medium bowl, sift together flour, sugar, baking soda, salt, and cocoa powder.
+In a large bowl, mix together oil, buttermilk, eggs, food coloring, vinegar, and vanilla extract until well combined.
+Gradually add the dry ingredients to the wet ingredients, mixing until smooth and well combined.
+Divide the batter evenly between the prepared cake pans.
+Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out clean.
+Allow the cakes to cool in the pans for 10 minutes, then transfer them to wire racks to cool completely.
+For the cream cheese frosting:
+In a large bowl, beat together cream cheese, butter, and vanilla extract until smooth and creamy.
+Gradually add the confectioners' sugar, beating until light and fluffy.
+Once the cakes are completely cooled, place one layer on a serving plate.
+Spread a layer of frosting evenly over the top of the first layer.
+Place the second layer on top and frost the top and sides of the cake with the remaining frosting.
+<button class="searchbtn" onclick="toggle()">CLOSE</button>
+</div>
+
+<div id="popup2">
+    <h1>TRES LES CHES</h1>
+    <h3>Ingredients:</h3>
+<h4>For the cake:</h4>
+1 cup all-purpose flour
+1 1/2 teaspoons baking powder
+1/4 teaspoon salt
+5 large eggs, separated
+1 cup granulated sugar, divided
+1/3 cup whole milk
+1 teaspoon vanilla extract
+For the three milk mixture:
+1 can (14 ounces) sweetened condensed milk
+1 can (12 ounces) evaporated milk
+1 cup whole milk
+For the whipped cream topping:
+2 cups heavy cream
+1/4 cup powdered sugar
+1 teaspoon vanilla extract
+<h3>Instructions:</h3>
+<h4>For the cake:</h4>
+Preheat your oven to 350°F (175°C). Grease and flour a 9x13 inch baking dish.
+In a medium bowl, whisk together the flour, baking powder, and salt. Set aside.
+In a large mixing bowl, beat the egg yolks with 3/4 cup of sugar until light and fluffy.
+Stir in the milk and vanilla extract.
+Gradually add the flour mixture to the egg yolk mixture, mixing until well combined.
+In another clean mixing bowl, beat the egg whites until soft peaks form. Gradually add the remaining 1/4 cup of sugar and continue beating until stiff peaks form.
+Gently fold the beaten egg whites into the cake batter until just combined.
+Pour the batter into the prepared baking dish and spread it evenly.
+Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out clean.
+Allow the cake to cool in the pan for about 10 minutes.
+For the three milk mixture:
+In a mixing bowl, whisk together the sweetened condensed milk, evaporated milk, and whole milk until well combined.
+While the cake is still warm, poke holes all over the surface using a fork or toothpick.
+Slowly pour the three milk mixture over the warm cake, making sure to evenly distribute it.
+Allow the cake to cool completely and then refrigerate for at least 1 hour, or overnight, to allow the milk mixture to soak into the cake.
+For the whipped cream topping:
+In a mixing bowl, beat the heavy cream, powdered sugar, and vanilla extract until stiff peaks form.
+Spread the whipped cream over the chilled cake.
+Optionally, you can garnish the cake with fresh fruit or a sprinkle of cinnamon.
+Slice and serve this delicious Tres Leches Cake cold. Enjoy!
+<button class="searchbtn" onclick="toggl()">CLOSE</button>
+</div>
+
+<div id="popup3">
+    <h1>TIRAMISU</h1>
+   <h3> Ingredients:</h3>
+6 large egg yolks
+3/4 cup granulated sugar
+1 cup mascarpone cheese, softened
+1 1/2 cups heavy cream
+2 cups strong brewed coffee or espresso, cooled to room temperature
+1/4 cup coffee liqueur (such as Kahlua), optional
+1 teaspoon vanilla extract
+24-30 ladyfingers (savoiardi biscuits)
+Cocoa powder, for dusting
+Dark chocolate shavings, for garnish
+<h3>Instructions:</h3>
+In a heatproof bowl, whisk together the egg yolks and sugar until well combined.
+Place the bowl over a pot of simmering water (double boiler) and whisk continuously until the mixture thickens and becomes pale yellow, about 5-7 minutes.
+Remove the bowl from heat and let it cool slightly.
+Add the mascarpone cheese to the egg yolk mixture and whisk until smooth and well combined. Set aside.
+In a separate bowl, whip the heavy cream until stiff peaks form.
+Gently fold the whipped cream into the mascarpone mixture until smooth. Set aside.
+In a shallow dish, combine the cooled coffee/espresso and coffee liqueur (if using).
+Dip each ladyfinger into the coffee mixture briefly, making sure not to soak them too much as they can become too soggy.
+Arrange a layer of dipped ladyfingers in the bottom of a 9x13 inch dish or a similar-sized serving dish.
+Spread half of the mascarpone mixture over the ladyfingers, smoothing it out into an even layer.
+Repeat the layers with another layer of dipped ladyfingers and the remaining mascarpone mixture.
+Cover the dish with plastic wrap and refrigerate for at least 4 hours, or preferably overnight, to allow the flavors to meld and the tiramisu to set.
+Before serving, dust the top of the tiramisu with cocoa powder and garnish with chocolate shavings.
+Slice and serve chilled.
+Enjoy this decadent and indulgent Tiramisu with friends and family!
+<button class="searchbtn" onclick="tiramisu()">CLOSE</button>
+</div>
+<div id="popup4">
+    <h1>CHEESE CAKE</h1>
+   <h3> Ingredients:</h3>
+<h4>For the crust:</h4>
+1 1/2 cups graham cracker crumbs (about 12 whole graham crackers)
+1/4 cup granulated sugar
+6 tablespoons unsalted butter, melted
+For the filling:
+4 packages (8 ounces each) cream cheese, softened
+1 1/4 cups granulated sugar
+4 large eggs
+1 tablespoon lemon juice
+1 teaspoon vanilla extract
+1 cup sour cream
+1/4 cup all-purpose flour
+<h3>Instructions:</h3>
+<h4>For the crust:</h4>
+Preheat your oven to 325°F (160°C). Grease a 9-inch springform pan.
+In a mixing bowl, combine the graham cracker crumbs, sugar, and melted butter. Mix until the crumbs are evenly coated.
+Press the crumb mixture into the bottom of the prepared springform pan, using the bottom of a glass or measuring cup to pack it down firmly.
+Bake the crust in the preheated oven for 10 minutes. Remove from the oven and set aside to cool.
+For the filling:
+In a large mixing bowl, beat the cream cheese and sugar together until smooth and creamy.
+Add the eggs one at a time, beating well after each addition.
+Mix in the lemon juice and vanilla extract.
+Add the sour cream and flour, and beat until well combined and smooth.
+Pour the filling over the cooled crust in the springform pan.
+Tap the pan gently on the counter to release any air bubbles.
+Bake the cheesecake in the preheated oven for 55-60 minutes, or until the edges are set and the center is slightly jiggly.
+Turn off the oven and leave the cheesecake inside with the door closed for 1 hour to cool gradually.
+Remove the cheesecake from the oven and run a knife around the edge of the pan to loosen the cheesecake from the sides.
+Refrigerate the cheesecake for at least 4 hours, or preferably overnight, to chill and set completely.
+<h3>Optional topping:</h3>
+Serve the cheesecake plain or with your favorite toppings such as fresh berries, fruit compote, whipped cream, or chocolate sauce.
+Slice and enjoy this creamy and indulgent New York-style cheesecake!
+ <button class="searchbtn" onclick="cheese()">CLOSE</button>
+
+</div>
+<div id="popup5">
+    <h1>BURFI</h1>
+   <h3> Ingredients:</h3>
+
+2 cups full-fat milk powder
+1 cup condensed milk
+1/4 cup ghee (clarified butter)
+1/4 cup chopped nuts (such as almonds, cashews, or pistachios)
+1/4 teaspoon cardamom powder
+Saffron strands (optional, for garnish)
+<h3>Instructions:</h3>
+
+Heat a non-stick pan on medium heat and add the ghee to it.
+
+Once the ghee melts, add the condensed milk and mix well.
+
+Now, gradually add the milk powder while stirring continuously to avoid lumps.
+
+Keep stirring the mixture on medium heat until it thickens and starts leaving the sides of the pan. This should take about 8-10 minutes.
+
+Add the cardamom powder and chopped nuts to the mixture and mix well.
+
+Grease a square or rectangular tray with a little ghee.
+
+Transfer the mixture into the greased tray and spread it evenly using a spatula.
+
+If using saffron strands, you can garnish the top of the burfi with them for added flavor and a decorative touch.
+
+Let the burfi cool down for about 15-20 minutes at room temperature.
+
+Once it's slightly cooled down, cut it into desired shapes using a knife.
+
+Allow the burfi to cool completely before removing it from the tray.
+
+Your delicious homemade burfi is ready to be enjoyed! You can store it in an airtight container at room temperature for up to a week.
+
+<button class="searchbtn" onclick="burfi()">CLOSE</button>
+
+
+
+</div>
+<div id="popup6">
+    <h1>RASMALAI</h1>
+  <h3>  Ingredients:</h3>
+
+<h4>For the Paneer Balls (Rasgullas):</h4>
+
+4 cups whole milk
+2 tablespoons lemon juice
+1/4 cup sugar
+4 cups water
+<h4>For the Milk Syrup:</h4>
+
+4 cups whole milk
+1/2 cup sugar
+4-5 green cardamom pods, crushed
+A pinch of saffron strands (optional)
+Chopped pistachios or almonds for garnish
+<h3>Instructions:</h3>
+
+Start by making the paneer balls (rasgullas). Heat 4 cups of whole milk in a heavy-bottomed pan until it comes to a boil.
+
+Once the milk starts boiling, reduce the heat to low and add lemon juice gradually while stirring continuously. The milk will start to curdle.
+
+Continue to cook until the milk solids separate completely from the whey. Turn off the heat once you see a clear separation.
+
+Strain the curdled milk through a muslin cloth or a fine sieve. Rinse the paneer under cold water to remove the lemony flavor.
+
+Gather the edges of the cloth and squeeze out excess water from the paneer. Hang the cloth for about 30 minutes to drain any remaining water.
+
+After 30 minutes, transfer the paneer to a plate and knead it well until it becomes smooth and soft.
+
+Divide the paneer into small portions and roll them into smooth balls without any cracks.
+
+In a separate wide pan, add 4 cups of water and 1/4 cup of sugar. Bring it to a boil.
+
+Gently drop the paneer balls into the boiling sugar syrup. Cover and cook for about 15-20 minutes on medium heat. The paneer balls will double in size.
+
+Once cooked, turn off the heat and let them cool in the syrup for a while.
+
+Meanwhile, prepare the milk syrup. In another pan, heat 4 cups of whole milk over medium heat.
+
+Add sugar, crushed cardamom pods, and saffron strands (if using). Let the milk simmer until it reduces to about half its original volume, stirring occasionally.
+
+Once the milk has thickened, turn off the heat and let it cool slightly.
+
+Gently squeeze the excess syrup from the paneer balls and transfer them to the thickened milk (rabri).
+
+Allow the rasmalai to chill in the refrigerator for a few hours before serving.
+
+Garnish with chopped pistachios or almonds before serving.
+
+Your delicious homemade rasmalai is ready to be enjoyed!
+<button class="searchbtn" onclick="rasmalai()">CLOSE</button>
+
+
+
+
+
+</div>
+<div id="popup7">
+    <h1>RASGULLA</h1>
+    
+  <h3>  Ingredients:</h3>
+
+<h3>For the Paneer Balls (Rasgullas):</h3>
+
+1 liter full-fat milk
+2 tablespoons lemon juice or vinegar
+1 cup sugar
+4 cups water
+<h3>Instructions:</h3>
+
+Start by making the paneer. In a large heavy-bottomed pot, bring the milk to a boil over medium-high heat, stirring occasionally to prevent it from sticking to the bottom.
+
+Once the milk comes to a boil, reduce the heat to low and add the lemon juice or vinegar gradually while stirring continuously. The milk will curdle, and the whey will separate from the curdled milk solids (paneer).
+
+Once the milk has completely curdled and you see a clear separation of whey and curdled milk solids, turn off the heat.
+
+Line a large strainer or colander with a clean muslin cloth or cheesecloth. Pour the curdled milk through the cloth to strain out the whey.
+
+Rinse the paneer under cold running water to remove the sourness of the lemon juice or vinegar.
+
+Gather the edges of the cloth and squeeze out excess water from the paneer. Hang the cloth with the paneer for about 30 minutes to drain any remaining water.
+
+After 30 minutes, transfer the paneer to a large plate or bowl. Knead the paneer with the heel of your hand until it becomes smooth and soft. This process helps in making smooth rasgulla balls.
+
+Divide the paneer into small portions and roll them into smooth balls without any cracks. Make sure the balls are compact and smooth.
+
+In a wide pot, mix 1 cup of sugar with 4 cups of water and bring it to a boil over medium-high heat, stirring until the sugar dissolves completely.
+
+Gently drop the paneer balls into the boiling sugar syrup one by one. Cover the pot with a lid and let them cook for about 15-20 minutes on medium heat. The paneer balls will double in size.
+
+Once the paneer balls are cooked, turn off the heat and let them cool in the sugar syrup for a while.
+
+Rasgullas are ready to be served warm or chilled. You can store them in the refrigerator for up to 4-5 days. Enjoy these delicious homemade rasgullas as a sweet treat!
+
+Note: It's important to handle the paneer balls gently to prevent them from breaking while cooking. Also, the size of the rasgullas will increase while cooking, so make sure to leave some space in the pot for them to expand.
+
+<button class="searchbtn" onclick="rasgulla()">CLOSE</button>
+
+
+
+</div>
+<div id="popup8">
+   <h3> Ingredients:</h3>
+
+<h4>For the Gulab Jamun:</h4>
+
+1 cup milk powder
+1/4 cup all-purpose flour (maida)
+1/4 teaspoon baking soda
+2 tablespoons ghee or melted butter
+3-4 tablespoons milk (as needed to make the dough)
+Oil or ghee for deep frying
+For the Sugar Syrup (Chashni):
+
+2 cups sugar
+2 cups water
+4-5 green cardamom pods, crushed
+A few saffron strands (optional)
+1 teaspoon rose water or 1/2 teaspoon rose essence (optional)
+<h3>Instructions:</h3>
+
+Start by preparing the sugar syrup (chashni). In a saucepan, combine sugar and water. Place it over medium heat and stir until the sugar completely dissolves.
+
+Add crushed cardamom pods and saffron strands to the sugar syrup for flavor. You can also add rose water or rose essence for a fragrant touch. Let the syrup simmer for 5-7 minutes, then turn off the heat. Keep the sugar syrup warm.
+
+In a mixing bowl, combine milk powder, all-purpose flour, and baking soda. Mix well to ensure there are no lumps.
+
+Add ghee or melted butter to the dry ingredients and mix using your fingers until the mixture resembles breadcrumbs.
+
+Gradually add milk, a tablespoon at a time, and knead gently to form a soft dough. The dough should be smooth and slightly sticky. Be careful not to over-knead the dough.
+
+Divide the dough into small portions and roll them between your palms to form smooth, crack-free balls. Make sure there are no cracks on the surface of the balls.
+
+Heat oil or ghee in a deep pan over medium-low heat. The oil should be moderately hot, not too hot, to avoid burning the gulab jamuns.
+
+Gently slide the prepared dough balls into the hot oil, a few at a time, and fry them on low to medium heat. Stir occasionally to ensure even browning. Fry until they turn golden brown and evenly cooked from all sides. This should take about 8-10 minutes.
+
+Once the gulab jamuns are golden brown, remove them from the oil using a slotted spoon and drain excess oil by placing them on paper towels.
+
+Immediately transfer the hot fried gulab jamuns into the warm sugar syrup. Let them soak in the syrup for at least 1-2 hours to absorb the sweetness and flavors.
+
+Serve the gulab jamuns warm or at room temperature. You can garnish them with chopped nuts like pistachios or almonds for an extra crunch.
+
+Your delicious homemade gulab jamuns are ready to be enjoyed! 
+<button class="searchbtn" onclick="gulab()">CLOSE</button>
+    
+</div>
+<div id="popup9">
+    <h1>PASTA</h1>
+   <h3> Ingredients:</h3>
+
+8 oz (225g) spaghetti pasta
+2 tablespoons olive oil
+2 cloves garlic, minced
+1 can (14 oz/400g) crushed tomatoes
+1 teaspoon dried oregano
+Salt and pepper to taste
+Fresh basil leaves, torn
+Grated Parmesan cheese (optional, for serving)
+Instructions:
+
+<h4>Cook the Spaghetti:</h4> Bring a large pot of salted water to a boil. Add the spaghetti and cook according to package instructions until al dente (usually about 8-10 minutes). Drain the pasta, reserving about 1/2 cup of the pasta water.
+
+<h4>Prepare the Sauce:</h4> While the pasta is cooking, heat the olive oil in a large skillet over medium heat. Add the minced garlic and sauté for about 1 minute until fragrant, being careful not to let it brown.
+
+Add the crushed tomatoes and dried oregano to the skillet. Season with salt and pepper to taste. Allow the sauce to simmer for about 10-15 minutes, stirring occasionally, until it thickens slightly.
+
+<h4>Combine Pasta and Sauce:</h4> Add the cooked spaghetti to the skillet with the tomato sauce. Toss well to coat the pasta evenly with the sauce. If the sauce seems too thick, you can add some of the reserved pasta water to loosen it up.
+
+<h4>Serve:</h4> Transfer the spaghetti with tomato sauce to serving plates. Top with torn fresh basil leaves and grated Parmesan cheese, if desired.
+
+<h4>Enjoy:</h4> Serve hot and enjoy your delicious spaghetti with tomato sauce and basil!
+
+Feel free to customize this recipe by adding your favorite ingredients such as cooked Italian sausage, sautéed mushrooms, or diced bell peppers. You can also adjust the seasonings to suit your taste preferences.
+
+
+
+
+
+
+    <button class="searchbtn" onclick="pasta()">CLOSE</button>
+</div>
 
 
 
@@ -128,6 +496,67 @@
            anchor.href=`.${searchinput}`;
             
         })
+        var blur = document.getElementById('blur');
+
+        function toggle(){
+          
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+            
+        }
+        function toggl(){
+            
+            blur.classList.toggle('active');
+            var popup2 = document.getElementById('popup2');
+            popup2.classList.toggle('active');
+            
+        }
+        function tiramisu(){
+            blur.classList.toggle('active');
+            var popup3 = document.getElementById('popup3');
+            popup3.classList.toggle('active');
+        }
+        function cheese(){
+            blur.classList.toggle('active');
+            var popup4 = document.getElementById('popup4');
+            popup4.classList.toggle('active');
+
+        }
+        function burfi(){
+            
+            blur.classList.toggle('active');
+            var popup5 = document.getElementById('popup5');
+            popup5.classList.toggle('active');
+            
+        }
+        function rasmalai(){
+            
+            blur.classList.toggle('active');
+            var popup6 = document.getElementById('popup6');
+            popup6.classList.toggle('active');
+            
+        }
+        function rasgulla(){
+            
+            blur.classList.toggle('active');
+            var popup7 = document.getElementById('popup7');
+            popup7.classList.toggle('active');
+            
+        }
+        function gulab(){
+            blur.classList.toggle('active');
+            var popup8 = document.getElementById('popup8');
+            popup8.classList.toggle('active');
+
+        }
+        function pasta(){
+            blur.classList.toggle('active');
+            var popup9 = document.getElementById('popup9');
+            popup9.classList.toggle('active');
+
+        }
+        
     </script>
     
     
