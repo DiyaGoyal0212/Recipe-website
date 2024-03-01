@@ -129,6 +129,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup h1{
@@ -157,6 +159,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
    
 
 }
@@ -186,6 +190,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 }
 #popup3 h1{
     color: black;
@@ -212,6 +218,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup4 h1{
@@ -239,6 +247,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup5 h1{
@@ -266,6 +276,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup6 h1{
@@ -293,6 +305,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup7 h1{
@@ -320,6 +334,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup8 h1{
@@ -347,6 +363,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup9 h1{
@@ -374,6 +392,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup10 h1{
@@ -401,6 +421,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 }
 #popup11 h1{
     color: black;
@@ -427,6 +449,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 }
 #popup12 h1{
     color: black;
@@ -453,6 +477,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 #popup13 h1{
@@ -478,6 +504,8 @@ body.active .blur{
     box-shadow:0 5px 30px rgba(0,0,0,.30);
     background-color: #fff;
     visibility: hidden;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
     opacity: 0;
     transition: 0.5s;
 
@@ -507,6 +535,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -535,6 +565,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -563,6 +595,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -591,6 +625,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -619,6 +655,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -647,6 +685,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -675,6 +715,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -703,6 +745,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -732,6 +776,8 @@ body.active .blur{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 
@@ -760,6 +806,8 @@ body.active .popup23{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(48, 48, 48);
 
 }
 .btn{
