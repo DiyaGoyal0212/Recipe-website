@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Recipe</title>
+    <script src="https://kit.fontawesome.com/92d7fc4876.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .searchbtn{
+    background-color: #f44546;
+    margin-left: 10px;
+}
+body{
+    background-color: rgb(188, 188, 220);
+    text-align: center;
+}
+    img{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        background: #dfdfdf;
+    }
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(28,37,66,255);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.it{
+    display: flex;
+    margin-right: 10px;
+}
+form{
+  display: flex;
+    margin-left: 10px;
+}
+i{
+    font-size: 25px;
+    color: aliceblue;
+}i:hover{
+    color:orange;
+}
+h1{
+    color: aliceblue;
+}
+
+.images h1{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.done{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#fname{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    height: 50vh;
+    margin-left: 30%;
+}
+.your{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+.button{
+    height: 50px;
+    width: 200px;
+    background-color: #f44546;
+    margin-left: 50%;
+}
+
+</style>
+</style>
+<body>
+    <nav>
+        <h1><a href="index.html">RECIPE APP</a></h1>
+        <div class="it">
+           <a href="login.html"> <i class="fa-solid fa-user"></i></a>
+        <form>
+            
+            <button class="searchbtn"><a class="anchor" href="app.html">Search</a></button>
+        </form>
+        </div>
+       
+    </nav>
+    <div class="your">
+        <h1>UPLOAD YOUR RECIPE</h1>
+        <textarea id="fname">ENTER YOUR RECIPE HERE</textarea>
+        <button class="button" onclick="select()">SUBMIT</button>
+    </div>
+    <script>
+        let btn=document.querySelector(".button")
+        function select(){
+            alert("YOUR RECIPE IS SUBMITTED");
+        }
+
+    </script>
+</body>
+</html>

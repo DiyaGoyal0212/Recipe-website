@@ -60,13 +60,9 @@ pointer-events: none;
 user-select: none;
 scroll-behavior: none;
 }
-nav.active{
-    filter: blur(20px);
-pointer-events: none;
-user-select: none;
-scroll-behavior: none;
 
-}
+
+
 .recipe-box p{
     color: yellow;
 }
@@ -76,6 +72,7 @@ scroll-behavior: none;
 .searchbtn{
     background-color: #f44546;
     margin-left: 10px;
+   
 }
 
 .recipe-box{
@@ -107,9 +104,21 @@ text-align: center;
     
     
 }
+body.active{
+    overflow: scroll;
+    
+
+
+    
+}
+body.active .blur{
+    filter:blur(5px);
+    background: rgba(0,0,0,0.8) ;
+    transition:filter 0ms ease-in-out 0ms;
+}
 #popup{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -131,29 +140,34 @@ text-align: center;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
+    margin-top: 100%;
 
 }
 #popup2{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
+    margin-top: -25px;
     max-width: 450px;
     transform: translate(-50%,-50%);
     width: 98%;
-    padding: 50px;
+    padding: 20px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
     background-color: #fff;
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+   
 
 }
 #popup2 h1{
     color: black;
 }
 #popup2.active{
+   
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -161,7 +175,7 @@ text-align: center;
 }
 #popup3{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -179,6 +193,7 @@ text-align: center;
 #popup3.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -186,7 +201,7 @@ text-align: center;
 }
 #popup4{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -205,6 +220,7 @@ text-align: center;
 #popup4.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -212,7 +228,7 @@ text-align: center;
 }
 #popup5{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -232,13 +248,14 @@ text-align: center;
     top: 50%;
     visibility: visible;
     opacity: 1;
+    margin-top: 100%;
     transition: 0.5s;
     overflow: scroll;
 
 }
 #popup6{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -257,6 +274,7 @@ text-align: center;
 #popup6.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -264,7 +282,7 @@ text-align: center;
 }
 #popup7{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -283,6 +301,7 @@ text-align: center;
 #popup7.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -290,7 +309,7 @@ text-align: center;
 }
 #popup8{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -309,6 +328,7 @@ text-align: center;
 #popup8.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -316,7 +336,7 @@ text-align: center;
 }
 #popup9{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -336,13 +356,14 @@ text-align: center;
     top: 50%;
     visibility: visible;
     opacity: 1;
+    margin-top: 100%;
     transition: 0.5s;
     overflow: scroll;
 
 }
 #popup10{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -361,6 +382,7 @@ text-align: center;
 #popup10.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -368,7 +390,7 @@ text-align: center;
 }
 #popup11{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -386,6 +408,7 @@ text-align: center;
 #popup11.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -393,7 +416,7 @@ text-align: center;
 }
 #popup12{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -411,6 +434,7 @@ text-align: center;
 #popup12.active{
     top: 50%;
     visibility: visible;
+    margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -418,7 +442,7 @@ text-align: center;
 }
 #popup13{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -437,6 +461,7 @@ text-align: center;
 #popup13.active{
     top: 50%;
     visibility: visible;
+    margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -444,7 +469,7 @@ text-align: center;
 }
 #popup14{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -463,6 +488,7 @@ text-align: center;
 #popup14.active{
     top: 50%;
     visibility: visible;
+    margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -470,7 +496,7 @@ text-align: center;
 }
 #popup15{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -490,6 +516,7 @@ text-align: center;
 #popup15.active{
     top: 50%;
     visibility: visible;
+    margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -497,7 +524,7 @@ text-align: center;
 }
 #popup16{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -517,6 +544,7 @@ text-align: center;
 #popup16.active{
     top: 50%;
     visibility: visible;
+    margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -524,7 +552,7 @@ text-align: center;
 }
 #popup17{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -544,6 +572,7 @@ text-align: center;
 #popup17.active{
     top: 50%;
     visibility: visible;
+    margin-top: 40%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -551,7 +580,7 @@ text-align: center;
 }
 #popup18{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -573,12 +602,13 @@ text-align: center;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
+    margin-top: 40%;
     overflow: scroll;
 
 }
 #popup19{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -599,13 +629,14 @@ text-align: center;
     top: 50%;
     visibility: visible;
     opacity: 1;
+    margin-top: 40%;
     transition: 0.5s;
     overflow: scroll;
 
 }
 #popup20{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -625,6 +656,7 @@ text-align: center;
 #popup20.active{
     top: 50%;
     visibility: visible;
+    margin-top: 40%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -632,7 +664,7 @@ text-align: center;
 }
 #popup21{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -652,6 +684,7 @@ text-align: center;
 #popup21.active{
     top: 50%;
     visibility: visible;
+    margin-top: 20%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -659,7 +692,7 @@ text-align: center;
 }
 #popup22{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -680,14 +713,16 @@ text-align: center;
     top: 50%;
     visibility: visible;
     opacity: 1;
+    margin-top: 20%;
     transition: 0.5s;
     overflow: scroll;
 
 }
-#popup23{
+.popup23{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
+    margin-top: -25px;
     max-width: 450px;
     transform: translate(-50%,-50%);
     width: 98%;
@@ -700,12 +735,13 @@ text-align: center;
 
 }
 
-#popup23 h1{
+.popup23 h1{
     color: black;
 }
-#popup23.active{
+body.active .popup23{
     top: 50%;
     visibility: visible;
+    margin-top: 20%;
     opacity: 1;
     transition: 0.5s;
     overflow: scroll;
@@ -713,7 +749,7 @@ text-align: center;
 }
 #popup24{
     position: absolute;
-    top: 100%;
+    top: -100%;
     left: 50%;
     max-width: 450px;
     transform: translate(-50%,-50%);
@@ -724,6 +760,11 @@ text-align: center;
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
 
 }
 
@@ -734,6 +775,7 @@ text-align: center;
     top: 50%;
     visibility: visible;
     opacity: 1;
+    margin-top: 20%;
     transition: 0.5s;
     overflow: scroll;
 

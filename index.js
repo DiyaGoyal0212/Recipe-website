@@ -175,10 +175,7 @@ function poha(){
 
 }
 function idli(){
-    blur.classList.toggle('active');
-    nav.classList.toggle('active');
-    var popup23= document.getElementById('popup23');
-    popup23.classList.toggle('active');
+    document.body.classList.toggle('active');
 
 }
 function dosa(){
