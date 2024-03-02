@@ -142,7 +142,6 @@ body.active .blur{
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
     margin-top: 100%;
 
 }
