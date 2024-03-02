@@ -118,6 +118,7 @@ body.active .blur{
 }
 #popup{
     position: absolute;
+    
     top: -100%;
     left: 50%;
     max-width: 450px;
@@ -125,7 +126,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -155,7 +156,7 @@ body.active .blur{
     width: 98%;
     padding: 20px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -174,7 +175,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup3{
@@ -186,7 +187,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -202,7 +203,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup4{
@@ -214,7 +215,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -231,7 +232,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup5{
@@ -243,7 +244,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -260,7 +261,7 @@ body.active .blur{
     opacity: 1;
     margin-top: 100%;
     transition: 0.5s;
-    overflow: scroll;
+ 
 
 }
 #popup6{
@@ -272,7 +273,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -289,7 +290,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup7{
@@ -301,7 +302,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -318,7 +319,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+
 
 }
 #popup8{
@@ -330,7 +331,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -347,7 +348,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup9{
@@ -359,7 +360,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -376,7 +377,7 @@ body.active .blur{
     opacity: 1;
     margin-top: 100%;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup10{
@@ -388,7 +389,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -405,7 +406,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup11{
@@ -417,7 +418,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -433,7 +434,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup12{
@@ -445,7 +446,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -461,7 +462,7 @@ body.active .blur{
     margin-top: 100%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup13{
@@ -473,7 +474,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -490,7 +491,7 @@ body.active .blur{
     margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+ 
 
 }
 #popup14{
@@ -502,7 +503,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     border-radius: 20px;
     box-shadow: 3px 3px 0 rgb(48, 48, 48);
@@ -519,7 +520,7 @@ body.active .blur{
     margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup15{
@@ -531,7 +532,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -549,7 +550,7 @@ body.active .blur{
     margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup16{
@@ -561,7 +562,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -579,7 +580,7 @@ body.active .blur{
     margin-top: 70%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup17{
@@ -591,7 +592,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -609,7 +610,7 @@ body.active .blur{
     margin-top: 40%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup18{
@@ -621,7 +622,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -639,7 +640,7 @@ body.active .blur{
     opacity: 1;
     transition: 0.5s;
     margin-top: 40%;
-    overflow: scroll;
+ 
 
 }
 #popup19{
@@ -651,7 +652,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -669,7 +670,7 @@ body.active .blur{
     opacity: 1;
     margin-top: 40%;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup20{
@@ -681,7 +682,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -699,7 +700,7 @@ body.active .blur{
     margin-top: 40%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup21{
@@ -711,7 +712,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -729,7 +730,7 @@ body.active .blur{
     margin-top: 20%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+  
 
 }
 #popup22{
@@ -741,7 +742,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -759,7 +760,7 @@ body.active .blur{
     opacity: 1;
     margin-top: 20%;
     transition: 0.5s;
-    overflow: scroll;
+ 
 
 }
 .popup23{
@@ -772,7 +773,7 @@ body.active .blur{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -790,7 +791,7 @@ body.active .popup23{
     margin-top: 20%;
     opacity: 1;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
 #popup24{
@@ -802,7 +803,7 @@ body.active .popup23{
     width: 98%;
     padding: 50px;
     box-shadow:0 5px 30px rgba(0,0,0,.30);
-    background-color: #fff;
+    background:linear-gradient(white,rgb(244, 244, 182));
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -825,6 +826,6 @@ body.active .popup23{
     opacity: 1;
     margin-top: 20%;
     transition: 0.5s;
-    overflow: scroll;
+   
 
 }
