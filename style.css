@@ -81,7 +81,7 @@ nav{
     background-color: black;
     
 }
-@media  screen and (max-width: 300px) {
+@media  screen and (max-width: 500px) {
     .register{
         justify-content: center;
         margin-left: 10px;

@@ -237,7 +237,7 @@ a{
     border-radius: 50px;
     width: 95%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     nav{
         flex-direction: column;
     }
@@ -296,6 +296,10 @@ a{
     }
     .extra{
         display: none;
+    }
+    .container{
+        width: 100vw;
+        
     }
     
 }
