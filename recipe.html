@@ -115,14 +115,21 @@ h1{
     <div class="your">
         <h1>UPLOAD YOUR RECIPE</h1>
         <textarea id="fname">ENTER YOUR RECIPE HERE</textarea>
-        <button class="button" onclick="select()">SUBMIT</button>
+        <button class="button" onclick="svae()">SUBMIT</button>
     </div>
     <script>
-        let btn=document.querySelector(".button")
-        function select(){
-            alert("YOUR RECIPE IS SUBMITTED");
-        }
+        // let btn=document.querySelector(".button")
+        // function select(){
+        //     alert("YOUR RECIPE IS SUBMITTED");
+        // }
 
+        
+        function svae(){
+            var user = document.getElementById("fname").value ;
+        localStorage.setItem("user", user) ;
+        alert("RECIPE IS SAVED") ;
+      
+        }
     </script>
 </body>
 </html>
