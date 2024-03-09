@@ -11,6 +11,15 @@ nav{
     background-color: black;
 
 }
+.set {
+    display: flex;
+
+}
+.set i{
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
+}
 
 a{
     color: white;
@@ -31,11 +40,22 @@ nav h4:hover{
 i{
     font-size: 25px;
     color: white;
-}i:hover{
+}
+.end h1{
+    color: aliceblue;
+}
+.it i:hover{
     color:orange;
 }
-h1{
+ nav h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+nav h1 a{
+    text-decoration:none;
     color: aliceblue;
+
 }
 
  button{
@@ -173,6 +193,16 @@ h3{
     text-align: center;
     font-weight: bolder;
 }
+span{
+    margin-right: 10px;
+}
+.end{
+    height: 100vh;
+}
+.end a{
+    color: white;
+    text-decoration: none;
+}
 .rev2{
     width: 20vw;
     height: 70vh;
@@ -213,8 +243,10 @@ a{
     color:aliceblue;
 
 }
+
 .end ul li{
     margin-top: 20px;
+   
     margin-bottom: 20px;
 }
 .end2{
@@ -238,6 +270,12 @@ a{
     width: 95%;
 }
 @media screen and (max-width: 600px) {
+    .end h3{
+        font-size: 30px;
+    }
+    #log{
+        margin: 20px;
+    }
     nav{
         flex-direction: column;
     }
@@ -245,10 +283,7 @@ a{
         height: 30px;
         margin-top: 20px;
     }
-    nav i{
-        margin: 20px;
-        
-    }
+    
     .end{
         height: 70vh;
     }
@@ -257,6 +292,19 @@ a{
         flex-direction: column;
         gap: 20px;
         
+    }
+    .cont button{
+        display: none;
+    }
+    .end h1{
+        font-size: 30px;
+    }
+    .end{
+        height: 180vh;
+    }
+    .end2{
+        display: flex;
+        flex-direction: column;
     }
     .carousel-item img{
         width: 90vw;
@@ -278,6 +326,7 @@ a{
         width: 300px;
         height: 400px;
     }
+   
     .step{
         display: none;
     }
@@ -300,6 +349,76 @@ a{
     .container{
         width: 100vw;
         
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+    .rev1{
+        height: 450px
+    }
+    .rev2{
+        height: 450px
+    }
+    .rev3{
+        height: 450px
+    }
+    .rev4{
+        height: 450px
+    }
+    
+}
+@media screen and (max-width:900px) and (min-width: 600px) {
+    .reviw{
+        flex-direction: column;
+        gap: 20px;
+
+        
+    }
+    .end{
+        height: 100vh;
+    }
+    .rev1{
+        width: 400px;
+        height: 300px;
+    }
+    .rev2{
+        width: 400px;
+        height: 300px;
+    }
+    .rev3{
+        width: 400px;
+        height: 300px;
+    }
+    .rev4{
+        width: 400px;
+        height: 300px;
+    }
+    
+    
+    
+    
+}
+@media screen and (max-width: 1000px) {
+    .one{
+        height: 440px;
+        margin-bottom: 20px;
+
+    }
+    .second{
+        height: 440px;
+        margin-bottom: 20px;
+
+    }
+    .third{
+        height: 440px;
+        margin-bottom: 20px;
+
+    }
+    
+}
+@media screen and (max-width: 1500px) and (min-width: 600px) {
+    .end{
+        height: 70vh;
     }
     
 }

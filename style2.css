@@ -12,13 +12,30 @@ nav{
     background-color: black;
 
 }
+.set {
+    display: flex;
+
+}
+.set i{
+    color: white;
+    margin-right: 10px;
+}
 a{
     color: white;
     text-decoration: none;
 }
 .it{
     display: flex;
+    background-color: #f44546;
+    border: 2px white solid;
+    height: 30px;
+
+}
+nav p{
+    color: white;
     margin-right: 10px;
+    margin-left: 10px;
+    line-height: 30px;
 }
 form{
   display: flex;
@@ -84,7 +101,7 @@ text-align: center;
     justify-content:space-around;
     margin-bottom: 30px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     #popup{
         overflow: hidden;
         height: 100vh;
@@ -97,9 +114,8 @@ text-align: center;
         margin-top: 20px;
         width: 80%;
     }
-    nav i{
-        margin: 20px;
-        
+    .it{
+        margin-top: 20px;
     }
     
     
