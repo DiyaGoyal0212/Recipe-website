@@ -285,7 +285,7 @@ a{
     }
     
     .end{
-        height: 70vh;
+        height: 80vh;
     }
     
     .reviw{
@@ -293,15 +293,15 @@ a{
         gap: 20px;
         
     }
-    .cont button{
+    /* .cont button{
         display: none;
-    }
+    } */
     .end h1{
         font-size: 30px;
     }
-    .end{
+    /* .end{
         height: 180vh;
-    }
+    } */
     .end2{
         display: flex;
         flex-direction: column;
@@ -418,7 +418,7 @@ a{
 }
 @media screen and (max-width: 1500px) and (min-width: 600px) {
     .end{
-        height: 70vh;
+        height: 40vh;
     }
     
 }
